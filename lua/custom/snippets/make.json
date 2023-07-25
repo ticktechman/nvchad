@@ -1,0 +1,21 @@
+{
+  "init": {
+    "prefix": "init",
+    "body": [
+        "#!/usr/bin/env bash",
+        "###############################################################################",
+        "##",
+        "##       filename: $TM_FILENAME",
+        "##    description: $1",
+        "##        created: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
+        "##         author: ticktechman",
+        "##",
+        "###############################################################################",
+        ".PHONY: all build test install doc",
+        "",
+        "",
+        "###############################################################################"
+    ],
+    "description": "init empty file"
+  }
+}

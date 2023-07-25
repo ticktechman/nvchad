@@ -1,0 +1,36 @@
+{
+  "name": "ticktechman-snippets",
+  "author": "ticktechman",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./lua.json"
+      }, {
+        "language": "javascript",
+        "path": "./javascript.json"
+      }, {
+        "language": "sh",
+        "path": "./sh.json"
+      }, {
+        "language": "cpp",
+        "path": "./c.json"
+      }, {
+        "language": "c",
+        "path": "./c.json"
+      }, {
+        "language": "make",
+        "path": "./make.json"
+      }, {
+        "language": "go",
+        "path": "./go.json"
+      }, {
+        "language": "sql",
+        "path": "./sql.json"
+      }
+    ]
+  }
+}

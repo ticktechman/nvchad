@@ -1,0 +1,34 @@
+{
+  "init": {
+    "prefix": "init",
+    "body": [
+        "//-----------------------------------------------------------------------------",
+        "//",
+        "//       filename: $TM_FILENAME",
+        "//    description: $1",
+        "//        created: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
+        "//         author: ticktechman",
+        "//",
+        "//-----------------------------------------------------------------------------",
+        "",
+        "",
+        "",
+        "//-----------------------------------------------------------------------------"
+    ],
+    "description": "init empty file"
+  },
+  "main": {
+    "prefix": "main",
+    "body": [
+        "package main",
+        "",
+        "import \"fmt\"",
+        "",
+        "func main() {",
+        "    fmt.Println(\"${1:hello}\")",
+        "}",
+        ""
+    ],
+    "description": "main function"
+  }
+}

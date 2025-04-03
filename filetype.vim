@@ -8,3 +8,5 @@ au BufNewFile,BufRead *
 	\|  setf javascript
 	\|endif
 
+au BufNewFile,BufRead zshrc,.zshrc set filetype=sh
+
